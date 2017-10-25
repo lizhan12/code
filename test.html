@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" editable=false>
+	<p>这是一个</p>
+	<button>按钮</button>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+
+<script>
+
+// $("input").focus(function(){
+// 	$('input').attr("readonly","readonly")
+// 	console.log("hello")
+// })
+// $("button").click(function(){
+// 	$("p").attr('contentEditable','true')
+// 	$("input").val("hello")
+// })
+var a="2018-10-24"
+var b="2017-10-23"
+	var a1=a.split("-");
+	var b1=b.split("-");
+	if(a1[0]>b1[0]){
+		console.log(1)
+	}else if(a1[1]>b1[1]){
+		console.log(2)
+	}else if(a1[2]>b1[2]){
+		console.log(3)
+	}
+	console.log(a1,b1)
+</script>
+</body>
+</html>
